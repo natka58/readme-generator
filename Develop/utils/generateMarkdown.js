@@ -22,30 +22,31 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [Questions](#questions)
   
-  ## Installation
-  Steps to install the program are: ${data.installation}
-  
+   ## Installation
+     Steps to install the program are: ${data.installation}
+ 
+   
   ## Usage
   Example and instrution of use: ${data.usage}
-  ![](#)
+  ![](Images/sample.gif)
 
   ## Credits
-  Program collaborators and third party assets: ${data.credits}
+   Program collaborators and third party assets: ${data.credits}
   
   ## License
   ${data.license}
   
   ## Contributors
-  Quidelines to contributors: ${data.contributors}
+   Quidelines to contributors: ${data.contributors}
 
   ## Tests
   To test run the following code: ${data.tests}
   
     
   ## Questions
-  \n GitHub Username: ${gitHub} 
-  \n GitHub URL: ${data.url}
-  \n For questions reach our to: ${data.email}.`
+   \n GitHub Username: ${gitHub} 
+   \n GitHub URL: ${data.url}
+   \n For questions reach our to: ${data.email}.`
 
   // return `## User Name ` + `\n\n` + `${data.username}`
   //   + `\n\n ` + `## GitHub URL ` + `\n\n` + ` ${data.url}`
