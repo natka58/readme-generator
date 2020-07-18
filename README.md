@@ -23,7 +23,7 @@
    
   ## Usage
   Example and instrution of use: Answer questions to populate the file
-  ![](Images/sample.gif)
+  ![](https://drive.google.com/file/d/1b39uNJrIhz8qBsCcX43W7COZ8_ryF_wb/view)
 
   ## Credits
    Program collaborators and third party assets: no collaborators used
