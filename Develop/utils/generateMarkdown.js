@@ -28,8 +28,7 @@ function generateMarkdown(data) {
    
   ## Usage
   Example and instrution of use: ${data.usage}
-  ![](Images/sample.gif)
-
+  
   ## Credits
    Program collaborators and third party assets: ${data.credits}
   

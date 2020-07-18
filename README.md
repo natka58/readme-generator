@@ -11,6 +11,7 @@
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Demo](#demo)
   * [Credits](#credits)
   * [License](#license)
   * [Contributors](#contributors)
@@ -22,8 +23,10 @@
  
    
   ## Usage
-  Example and instrution of use: Answer questions to populate the file
-  ![](Images/sample.gif)
+   Example and instrution of use: Answer questions to populate the file
+
+  ## Demo
+  ![Screenshot](sample.gif)
 
   ## Credits
    Program collaborators and third party assets: no collaborators used
