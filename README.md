@@ -23,7 +23,7 @@
  
    
   ## Usage
-   Example and instrution of use: Answer questions to populate the file
+   Example and instrution of use: Answer questions to populate the template
 
   ## Demo
   ![Screenshot](sample.gif)
@@ -35,10 +35,10 @@
   MIT
   
   ## Contributors
-   Quidelines to contributors: undefined
+   Quidelines to contributors: none provided
 
   ## Tests
-  To test run the following code: no test
+  To test run the following code: no code required
   
     
   ## Questions
@@ -47,4 +47,4 @@
    
  GitHub URL: https://github.com/natka58
    
- For questions reach our to: lilikoy@sbcglobal.net.
+ For questions reach out to: lilikoy@sbcglobal.net.
