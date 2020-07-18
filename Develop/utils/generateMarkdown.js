@@ -1,11 +1,11 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 
-  const gitHub = `https://img.shields.io/badge/Github-${data.username}-808000`;
+  const gitHub = `${data.username}`;
   const licenseIcon = `https://img.shields.io/badge/license-${data.license}-yellow.svg`;
   console.log(data);
   return `
-  # ** ${data.title} **
+  #  ${data.title} 
   
   \n ![${data.license}](${licenseIcon}) 
   

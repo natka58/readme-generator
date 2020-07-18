@@ -31,7 +31,7 @@ const questions = () => {
         {
             type: `input`,
             name: `credits`,
-            message: `Please list any collaborators`
+            message: `Please list any collaborators and third-party assets`
 
         },
         {
@@ -43,12 +43,12 @@ const questions = () => {
         {
             type: `input`,
             name: `contributing`,
-            message: `Would like other developers to contribute?`
+            message: `Would you like to add guidelines to contributers?`
         },
         {
             type: `input`,
             name: `tests`,
-            message: `What is the comand to run a test?`
+            message: `Do you have a test for your application?`
 
         },
         {
@@ -87,7 +87,7 @@ questions()
         fs.writeFile(`README.md`, pageHTML, "utf8", err => {
             if (err) throw new Error(err);
 
-            console.log(`Page created! check out index.html in this directory to see it!`);
+            console.log(`File created! check out README.md in this directory to see it!`);
         });
     });
 
