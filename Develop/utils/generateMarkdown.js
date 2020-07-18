@@ -1,7 +1,7 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
 
-  const gitHub = `${data.username}`;
+  const gitHub = `https://github.com/${data.username}`;
   const licenseIcon = `https://img.shields.io/badge/license-${data.license}-yellow.svg`;
   console.log(data);
   return `
@@ -39,13 +39,12 @@ function generateMarkdown(data) {
    Quidelines to contributors: ${data.contributors}
 
   ## Tests
-  To test run the following code: ${data.tests}
+   To test run the following code: ${data.tests}
   
     
   ## Questions
-   \n GitHub Username: ${gitHub} 
-   \n GitHub URL: ${data.url}
-   \n For questions reach our to: ${data.email}.`
+  \n GitHub URL: ${gitHub} 
+  \n For questions reach out to: ${data.email}.`
 
   // return `## User Name ` + `\n\n` + `${data.username}`
   //   + `\n\n ` + `## GitHub URL ` + `\n\n` + ` ${data.url}`
@@ -61,7 +60,7 @@ function generateMarkdown(data) {
   //   + `\n\n` + `## Contributers ` + `\n\n` + ` ${data.contributing}`
   //   + `\n\n` + `## Tests ` + `\n\n` + ` ${data.tests}`;
 
-   
+
 }
 
 module.exports = generateMarkdown;
