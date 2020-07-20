@@ -23,7 +23,7 @@
  
    
   ## Usage
-  Example and instrution of use: Answer questions to populate the template
+  Example and instruction of use: Answer questions to populate the template
   
   ## Demo
   ![Screenshot](sample.gif)
